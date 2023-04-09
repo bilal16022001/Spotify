@@ -1,0 +1,228 @@
+
+*{
+   padding:0;
+   margin:0;
+}
+a{
+   text-decoration:none;
+   color:black;
+}
+body{
+  background-color:#e5e5e561;
+  overflow-x:hidden;
+}
+.header{
+  background-color:#e5e5e5;
+   padding:0 20px;
+   height:50px;
+   
+}
+.header p{
+   margin:0;
+}
+.pa{
+  width:100%;
+}
+.login-register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 20px auto; */
+  width: 500px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
+
+/* Form container */
+.form-container {
+  border: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  width:500px;
+  margin:auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+} */
+
+/* button[type="submit"]:hover {
+  background-color: #555;
+} */
+
+/* Login/Register Tabs */
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+li {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+li.active {
+  background-color: #ccc;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab {
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-container {
+    border-radius: 0;
+  }
+}
+
+.login-box {
+  background: #fff;
+  max-width: 500px;
+  /* margin: 50px auto; */
+
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); */
+}
+
+input[type="submit"] {
+  background: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  font-size: 18px;
+}
+
+input[type="submit"]:hover {
+  background: #18a447;
+}
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 260px;
+    color: #fff;
+
+  }
+  
+  .sidebar .sidebar-item {
+    padding: 13px;
+  }
+  
+  .sidebar .all {
+    padding: 35px;
+  }
+  
+  .sidebar .all a {
+    color: #fff;
+  }
+  
+  .sidebar .all .dropdown-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+.test{
+   display:flex;
+}
+
+.test .parent{
+  /* width:100%; */
+  padding:15px 30px;
+}
+.fvrt{
+   height:100vh;
+}
+.test .parent .playlistUsers{
+   display:grid;
+   grid-template-columns:repeat(4,1fr);
+   gap:10px;
+}
+.test .parent .about{
+   /* background-color:red; */
+   width:fit-content;
+   text-align:center;
+}
+
+.imgMusic{
+   width:150px;
+}
