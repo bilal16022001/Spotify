@@ -1,3 +1,6 @@
+
+![spotifyimg](https://user-images.githubusercontent.com/75837643/232162623-739078df-1358-422c-95a6-f60dd302a283.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
